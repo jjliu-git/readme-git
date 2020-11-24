@@ -13,6 +13,7 @@ public class CompanyServiceImpl implements CompanyService {
     private CompanyDao companyDao;
     @Override
     public List<Company> findAll() {
+        System.out.println("20201124firstBranch第一次修改");
         return companyDao.findAll();
     }
 }
