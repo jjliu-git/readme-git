@@ -15,6 +15,7 @@ public class CompanyServiceImpl implements CompanyService {
     public List<Company> findAll() {
         System.out.println("20201124firstBranch第一次修改");
         System.out.println("20201124secondBranch第一次修改");
+        System.out.println("又一次在firstBranch中建分支第一次修改");
         return companyDao.findAll();
     }
 }
